@@ -4,7 +4,7 @@ variable "instance_type" {
 }
 
 
-variable = "ami_filter"{
+variable "ami_filter"{
   description = "name filter and owner for AMI"
 
 
@@ -19,7 +19,7 @@ variable = "ami_filter"{
   }
 }
 
-variable = "environment" {
+variable "environment" {
   description = "Development Environment"
 
   type        = object ({
